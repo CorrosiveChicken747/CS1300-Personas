@@ -1,11 +1,190 @@
 <!doctype html>
 <html>
 <head>
-    <title>Assignment Name</title>
+    <title>Personas & Storyboarding</title>
     <link rel="stylesheet" href="index.css">
-    <meta name="description" content="my assignment write up">
+    <meta name="description" content="CorrosiveChicken's Assignment">
 </head>
     <body>
-        Content goes here.
+        <div id="outermost-div">
+            <h1>Personas & Storyboarding</h1>
+            <p class="description">
+                This page is an analysis of the user experience of interacting with Brown University's mailroom kiosks.
+                First, information about user experiences is collected through real interviews and observation
+                then, I create storyboards about a user's experience with the kiosks.
+            </p>
+            <h2>(1) The Interface:</h2>
+            <p class="description">
+                Hundreds of students interact with this interface every day, 
+                and there are often long lines to swipe for mail, so this interface
+                needs to be as simple and intuitive as possible.
+            </p>
+            <div id="interface-sketches">
+                <img class='sketch' src="./UI Sketch 1.png" alt="Brown Mail System UI Sketch, Screen 1">
+                <!--<h1>→</h1>-->
+                <img class='sketch' src="./UI Sketch 2.png" alt="Brown Mail System UI Sketch, Screen 2">
+            </div>
+            <h2>(2) Observations & Interviews:</h2>
+            <p class="description">
+                I observed students using the card scanners in the Brown mailroom, and these my main takeaways.   
+            </p>
+            <p class="description">
+                Students Generally:
+            </p>
+            <ul>
+                <li>Swipe their card multiple times</li>
+                <li>Swipe their card in the wrong direction</li>
+                <li>Always continue into the mailroom (almost never deciding to not pickup)</li>
+                <li>Switch swipe-kiosks if theirs isn't working</li>
+            </ul>
+            <h3>Interview Questions & Answers</h3>
+            <!-- Disgusting way to do a list, but whatever -->
+            <ul>
+                <li>
+                    <p>
+                        How do you determine which direction to swipe your card?
+                    </p>
+                    <ul>
+                        <li>
+                            <p>
+                                Same direction as swiping into a dorm
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Random direction as long as the magnetic strip is inside the scanner
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Top-to-bottom for more 'oomph'
+                            </p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p>
+                        How do you determine which kiosk to swipe at?
+                    </p>
+                    <ul>
+                        <li>
+                            <p>
+                                Whichever one is closest
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                The inside scanner, since there is less line there
+                            </p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p>
+                        Do you ever click the 'Cancel' button?
+                    </p>
+                    <ul>
+                        <li>
+                            <p>
+                                No.
+                            </p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p>
+                        Have you ever clicked the 'refresh' button? If so why?
+                    </p>
+                    <ul>
+                        <li>
+                            <p>
+                                No -- Keep swiping until it works, or move to another kiosk
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Yes -- Card sometimes gets a partial read (only a few black dots in card textbox) -- need to clear it.
+                            </p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p>
+                        Does the information about the number and type of packages you have influence your decision to pickup or cancel?
+                    </p>
+                    <ul>
+                        <li>
+                            <p>
+                                No -- Always continue into the mailroom. I know what I ordered.
+                            </p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p>
+                        Why did you choose this time to pick up mail?
+                    </p>
+                    <ul>
+                        <li>
+                            <p>
+                                Need a package for my next class (in 10 mins) so I must go now
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Package arrived today, picking it up as soon as possible
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Had some free time between classes, decided to pick up mail.
+                            </p>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <h2>(3) Personas:</h2>
+            <div id="personas-div">
+
+            </div>
+            <img class='persona' src="./Late Lucy.png" alt="Persona of Lucy, who is late to class because she must pick up her package">
+            <h4>
+                Late Lucy: Lucy picks her packages up only when she needs them, often picking up books/class materials right before their associated class.
+                She wants to get in and out of the mailroom as quickly as possible, and doesn't want to wait in line, but is rushing.
+            </h4>
+
+            <img class="persona" src="./Proactive Piper.png" alt="Persona of Piper, who is proactive and picks up her mail as soon as it arrives">
+            <h4>
+                Proactive Piper: Piper is proactive and picks up her mail as soon as it arrives. She doesn't want to wait in line, but is not in a rush.
+                She is very familiar with the mailroom systems and knows exactly what she ordered.
+            </h4>
+            <h2>(4) Storyboarding:</h2>
+            <div id="storyboard">
+                <div class="storyboard-and-label">
+                    <img class="storyboard-img" id="f1" src="./frame-0001.jpg" alt="Frame 1 of the storyboard">
+                    <label for="f1">Wakes up in the morning, Realizes she needs a package for today's class</label>
+                </div>
+                <div class="storyboard-and-label">
+                    <img class="storyboard-img" id="f2" src="./frame-0002.jpg" alt="Frame 2 of the storyboard">
+                    <label for="f2">Checks her schedule to see when she has time between classes</label>
+                </div>
+                <div class="storyboard-and-label">
+                    <img class="storyboard-img" id="f3" src="./frame-0003.jpg" alt="Frame 3 of the storyboard">
+                    <label for="f3">Gets to Mailroom 10 mins before class, disappointed by the long line</label>
+                </div>
+                <div class="storyboard-and-label">
+                    <img class="storyboard-img" id="f4" src="./frame-0004.jpg" alt="Frame 4 of the storyboard">
+                    <label for="f4">Tries to swipe card, but is rushing and swipes too fast.</label>
+                </div>
+                <div class="storyboard-and-label">
+                    <img class="storyboard-img" id="f5" src="./frame-0005.jpg" alt="Frame 5 of the storyboard">
+                    <label for="f5">Finally swipes card correctly</label>
+                </div>
+                <div class="storyboard-and-label">
+                    <img class="storyboard-img" id="f6" src="./frame-0006.jpg" alt="Frame 6 of the storyboard">
+                    <label for="f6">Waits for package, nervous about being late to class</label>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
